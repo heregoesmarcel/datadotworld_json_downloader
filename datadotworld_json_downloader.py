@@ -12,7 +12,7 @@ def writeToFile(output_directory, data):
     with open(filename, 'w') as outfile:
         json.dump(data, outfile)
 
-help = "Usage:\nclient.py <output directory> <dataset locations> -> Downloads a dataset from data.world to <output directory>\nclient.py get-all <output directory> <username>  -> Downloads all existing datasets in a user libary to <output directory>\nclient.py get-bookmarked <output directory>      -> Downloads all bookmarked datasets to <output directory>"
+help = "Usage:\ndatadotworld_json_downloader.py <output directory> <dataset locations> -> Downloads a dataset from data.world to <output directory>\ndatadotworld_json_downloader.py get-all <output directory> <username>  -> Downloads all existing datasets in a user libary to <output directory>\ndatadotworld_json_downloader.py get-bookmarked <output directory>      -> Downloads all bookmarked datasets to <output directory>"
 
 if len(sys.argv) < 2 or sys.argv[1] == 'help' or sys.argv[1] == '--help':
     print(help)
