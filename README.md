@@ -4,7 +4,7 @@ Quick hackety-hack solution for downloading datasets from data.world's project b
 ## Instructions
 
 Clone the repo:
-`https://github.com/microwav3s/datadotworld_json_downloader.git`
+`git clone https://github.com/microwav3s/datadotworld_json_downloader.git`
 
 Run the script with `python datadotworld_json_downloader.py` or `./datadotworld_json_downloader.py`
 
